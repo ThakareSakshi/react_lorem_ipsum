@@ -4,7 +4,7 @@ import CreatePara from './CreatePara'
 
 const ParaContainer = ({count}) => {
   return (
-    <div>
+    <div className='paraContainer'>
         {
          data.map((para,index)=>{
              console.log(index,count)

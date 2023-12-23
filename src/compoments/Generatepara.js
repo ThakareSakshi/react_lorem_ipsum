@@ -16,10 +16,10 @@ const handlepnumber=(e)=>{
   return (
     <div>
         <h1>TIRED OF BORING LOREM IPSUM?</h1>
-        <div>
-            <span>paraGraph</span>
+        <div className='generatepara'>
+            <span>Paragraph: </span>
             <input type="number" value={pnumber} onChange={handlepnumber}/> 
-            <button onClick={addPara}>generate</button></div>
+            <button onClick={addPara}>GENERATE</button></div>
       
     </div>
   )

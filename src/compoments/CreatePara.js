@@ -2,7 +2,7 @@ import React from 'react'
 
 const CreatePara = ({paragraph}) => {
   return (
-    <div>
+    <div className='para'>
         <p>{paragraph}</p>
         {
             console.log(paragraph)
